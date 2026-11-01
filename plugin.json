@@ -1,0 +1,9 @@
+{
+  "name": "ag-kit",
+  "displayName": "AG Kit",
+  "version": "2026.8.31",
+  "description": "Antigravity-first agent engineering kit with 47 specialist skills, rules, workflows, orchestration, and guidance.",
+  "author": {
+    "name": "vudovn"
+  }
+}
