@@ -1,16 +1,17 @@
-# 🚀 Antigravity & Gemini Skills Pack
+# 🚀 Mega Pack de Skills para Antigravity & Gemini CLI (Acervo Completo do Cofre)
 
-> Coleção completa com **48 skills profissionais** e agentes especializados para **Google Antigravity**, **Gemini CLI** e agentes de desenvolvimento por IA.
+> O maior e mais completo repositório de skills e agentes para **Google Antigravity**, **Gemini CLI** e agentes de IA.
+> Total de **1850 skills especializadas** consolidadas diretamente do cofre (`skills-vault`).
 
 ---
 
 ## ⚡ Como Instalar (Para seu amigo usar em 1 minuto)
 
-### Método 1: Instalador Automático (Mais Fácil)
+### Método 1: Instalador Automático de 1-Clique (Recomendado)
 * **No Windows:**
   1. Baixe o ZIP deste repositório (botão verde **Code** ➔ **Download ZIP**) e extraia.
-  2. Dê dois cliques no arquivo **`INSTALAR_SKILLS_WINDOWS.bat`**.
-  3. Escolha a opção **`[1]`** para instalar globalmente ou **`[2]`** para instalar como plugin completo.
+  2. Dê dois cliques em **`INSTALAR_SKILLS_WINDOWS.bat`**.
+  3. Escolha a opção **`[1]`** para instalar globalmente em `%USERPROFILE%\.gemini\skills` ou **`[2]`** como plugin completo.
 * **No Linux / macOS:**
   ```bash
   chmod +x install_skills.sh
@@ -19,9 +20,9 @@
 
 ---
 
-### Método 2: Via Git Clone Direto
+### Método 2: Via Git Clone
 
-#### Como Skills Globais (Recomendado):
+#### Como Skills Globais no Antigravity:
 ```bash
 # Windows (PowerShell):
 git clone https://github.com/zBassBosted/antigravity-skills.git $env:USERPROFILE\.gemini\skills
@@ -30,7 +31,7 @@ git clone https://github.com/zBassBosted/antigravity-skills.git $env:USERPROFILE
 git clone https://github.com/zBassBosted/antigravity-skills.git ~/.gemini/skills
 ```
 
-#### Como Plugin Oficial do Antigravity (com Agentes e Regras):
+#### Como Plugin Oficial em `.gemini/config/plugins/ag-kit`:
 ```bash
 # Windows:
 git clone https://github.com/zBassBosted/antigravity-skills.git $env:USERPROFILE\.gemini\config\plugins\ag-kit
@@ -41,93 +42,23 @@ git clone https://github.com/zBassBosted/antigravity-skills.git ~/.gemini/config
 
 ---
 
-## 📚 Catálogo das 48 Skills Incluídas
+## 📂 O que está incluso no pacote (1850 Skills)
 
-### 🎨 Frontend & Design
-| Skill | Descrição |
-| :--- | :--- |
-| **`frontend-design`** | Design anti-slop, interfaces modernas, tipografia e contraste profissional. |
-| **`frontend-architecture`** | Estruturação de componentes, separação UI / lógica e gerenciamento de estado. |
-| **`nextjs-react-expert`** | Otimização avançada de performance Next.js / React (Server Components, streaming). |
-| **`tailwind-patterns`** | Padrões de arquitetura CSS com Tailwind moderno (v4, tokens, design tokens). |
-| **`design-spec`** | Criação de DESIGN.md e especificações de tokens antes da implementação de UI. |
-| **`web-design-guidelines`** | Auditoria e boas práticas de acessibilidade (WCAG), contraste e UX. |
-
-### ⚙️ Engenharia de Software & Backend
-| Skill | Descrição |
-| :--- | :--- |
-| **`clean-code`** | Código conciso, direto, sem sobre-engenharia e auto-documentado. |
-| **`api-patterns`** | Design de APIs (REST, GraphQL, tRPC), paginação, versionamento e respostas. |
-| **`database-design`** | Modelagem de schemas SQL/NoSQL, índices, normalização e estratégias de cache. |
-| **`nodejs-best-practices`** | Padrões assíncronos, segurança, arquitetura modular e performance Node.js. |
-| **`python-patterns`** | Tipagem estática, async/await, arquitetura limpa e padrões modernos de Python. |
-| **`rust-pro`** | Programação segura e de alta performance com modern Rust (Tokio, axum). |
-| **`architecture`** | Avaliação de requisitos, trade-offs e documentação de decisões (ADR). |
-
-### 📱 Mobile & Games
-| Skill | Descrição |
-| :--- | :--- |
-| **`mobile-design`** | UX mobile-first para iOS e Android (React Native, Flutter, nativo). |
-| **`game-development`** | Orquestração de arquitetura e lógica de desenvolvimento de jogos. |
-
-### 🧪 Qualidade, Testes & Depuração
-| Skill | Descrição |
-| :--- | :--- |
-| **`systematic-debugging`** | Depuração científica em 4 fases: evidência, causa raiz e verificação. |
-| **`tdd-workflow`** | Ciclo Red-Green-Refactor rigoroso para desenvolvimento guiado por testes. |
-| **`testing-patterns`** | Pirâmide de testes (Unitários, Integração e Mocking limpo). |
-| **`webapp-testing`** | Testes End-to-End (E2E) com Playwright e auditorias profundas. |
-| **`verify-changes`** | Verificação de código por execução real, não apenas leitura estática. |
-| **`simplify-code`** | Redução de complexidade ciclomática e remoção de código morto. |
-| **`code-review-checklist`** | Checklist rigoroso de revisão de código, segurança e estilo. |
-| **`code-review-graph`** | Análise de raio de impacto e AST graph para revisão de mudanças. |
-| **`lint-and-validate`** | Verificação estática, formatação e checagem de tipos. |
-
-### 🛡️ Segurança & Engenharia Reversa
-| Skill | Descrição |
-| :--- | :--- |
-| **`vulnerability-scanner`** | Análise OWASP, supply chain security e superfície de ataque. |
-| **`red-team-tactics`** | Táticas defensivas e de auditoria baseadas na matriz MITRE ATT&CK. |
-| **`reverse-engineer-anything`** | Análise de binários, descompilação e inspeção de apps nativos/web. |
-
-### 🚀 Orquestração de IA & Produtividade
-| Skill | Descrição |
-| :--- | :--- |
-| **`app-builder`** | Orquestrador principal para construir aplicações full-stack a partir de prompts. |
-| **`intelligent-routing`** | Roteamento automático de tarefas para agentes especialistas adequados. |
-| **`coordinator-mode`** | Orquestração avançada com agentes paralelos e síntese inteligente. |
-| **`parallel-agents`** | Padrões de execução concorrente para tarefas independentes de código. |
-| **`brainstorming`** | Questionamento socrático para esclarecimento e design de soluções. |
-| **`plan-writing`** | Planejamento estruturado de tarefas complexas com dependências claras. |
-| **`context-compression`** | Gerenciamento inteligente de contexto para sessões longas. |
-| **`memory-system`** | Sistema de memória persistente entre sessões e preferências. |
-| **`skillify`** | Criação automática de novas skills a partir de fluxos de trabalho repetitivos. |
-| **`mcp-builder`** | Criação e manutenção de servidores e ferramentas no padrão Model Context Protocol. |
-| **`behavioral-modes`** | Modos comportamentais de operação (brainstorm, debug, ship, etc.). |
-
-### 🌐 Infraestrutura, SEO & Ferramentas
-| Skill | Descrição |
-| :--- | :--- |
-| **`deployment-procedures`** | Procedimentos de deploy seguro, rollback e verificação em produção. |
-| **`server-management`** | Gerenciamento de processos, monitoramento e escalabilidade. |
-| **`powershell-windows`** | Boas práticas e scripts robustos no ecossistema Windows/PowerShell. |
-| **`bash-linux`** | Scripting, pipelines e comandos para ambientes Linux e macOS. |
-| **`batch-operations`** | Modificações em lote em múltiplos arquivos simultaneamente. |
-| **`seo-fundamentals`** | SEO técnico, Core Web Vitals e algoritmos de indexação Google. |
-| **`geo-fundamentals`** | Otimização para motores de busca generativos (ChatGPT, Perplexity, Gemini). |
-| **`i18n-localization`** | Internacionalização, traduções e suporte a múltiplos idiomas. |
-| **`documentation-templates`** | Templates para READMEs, documentação de APIs e arquitetura. |
+* **Acervo do Cofre (`skills-vault`):** Mais de 1.840 skills cobrindo Inteligência Artificial, Machine Learning, Cloud (AWS, Azure, GCP), Automação, DevOps, Backend (Go, Rust, Python, Node, Java, C#), Frontend moderno (React, Vue, Svelte, Tailwind, CSS), Mobile nativo e híbrido (iOS, Swift, Android, Kotlin, Flutter, React Native), Web3/Solidity, Pentest & Cibersegurança, E-commerce, SEO, Marketing e Análise de Dados.
+* **AG Kit Core (48 Skills de Elite):** `clean-code`, `frontend-design`, `app-builder`, `architecture`, `systematic-debugging`, `nextjs-react-expert`, `mobile-design`, `reverse-engineer-anything`, etc.
+* **Agentes Especialistas:** 20 personas prontas para desenvolvimento autônomo.
+* **Regras & Diretrizes (Rules):** Padrões rígidos de código limpo, arquitetura e testes.
 
 ---
 
-## 💡 Como Usar Dentro do Antigravity / Gemini
+## 💡 Como Invocar no Antigravity / Gemini
 
-Após instalar, basta invocar a skill desejada no chat do Antigravity usando a arroba:
+No chat do Antigravity, basta chamar a skill desejada com a arroba:
 ```text
-Por favor, use @clean-code e @nextjs-react-expert para otimizar meu componente de feed.
+@clean-code @nextjs-react-expert refatore este componente eliminando waterfalls de dados.
 ```
-Ou o próprio Antigravity ativará a skill automaticamente pelo **`@intelligent-routing`**!
+Ou deixe o próprio Antigravity ativar as melhores skills automaticamente com base no seu pedido!
 
 ---
 
-Criado e mantido por **[@zBassBosted](https://github.com/zBassBosted)**.
+Mantido por **[@zBassBosted](https://github.com/zBassBosted)**.
