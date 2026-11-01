@@ -5,7 +5,7 @@
 
 ---
 
-## ⚡ Como Instalar (Para seu amigo usar em 1 minuto)
+## ⚡ Como Instalar
 
 ### Método 1: Instalador Automático de 1-Clique (Recomendado)
 * **No Windows:**
